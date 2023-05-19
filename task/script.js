@@ -31,7 +31,7 @@ request.onload = function () {
     return country.currencies && country.currencies.USD;
   });
 
-  // Print the country names
+  // Print the country names using USDs
   countriesWithUSD.forEach((country) => {
     console.log(country.name.common); // output =>Caribbean Netherlands United States EcuadorAmerican Samoa
   });
